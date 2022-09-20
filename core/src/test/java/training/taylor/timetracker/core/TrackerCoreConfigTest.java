@@ -15,6 +15,7 @@ import java.util.List;
  * Created by Jason on 6/20/2015.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
+@WebAppConfiguration
 @ContextConfiguration(classes = TrackerCoreConfig.class)
 public class TrackerCoreConfigTest {
 
